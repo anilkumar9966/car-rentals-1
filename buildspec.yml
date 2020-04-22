@@ -6,6 +6,7 @@ phases:
       - echo Entered the build phase...
       - echo Build started on `date`
       - mvn clean package
+      echo "These build is very imp"
   post_build:
     commands:
       - echo Build completed successfully
