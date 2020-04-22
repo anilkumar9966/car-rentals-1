@@ -6,6 +6,7 @@ This is online app to rent your car
 
 ### Maven command to create java web project
 
+#yum install git
 ```
   mvn archetype:generate 
 	-DgroupId=in.javahome
